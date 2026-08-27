@@ -20,10 +20,10 @@ The projects below are designed for operators who need to understand what a tool
 
 ## More tools
 
-- [WCAG 2.2 Site & PDF Scanner](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner) — audit websites and PDFs, exercise axe-core in a real browser, and produce evidence-first remediation reports.
-- [AWS Chaos Engineering Framework](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework) — orchestrate bounded AWS FIS experiments with GovCloud-aware safeguards, rollback, and audit evidence.
-- [AWS GovHawk Efficiency Analyzer](https://github.com/fusiontechstrategies/AWS-GovHawk-Efficiency-Analyzer) — surface potential waste, security blind spots, and operational risk across AWS GovCloud services.
-- [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester) — turn volatile public proxy feeds into a bounded, security-hardened network-diagnostics report.
+- [WCAG 2.2 Site & PDF Scanner](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner): audit websites and PDFs, exercise axe-core in a real browser, and produce evidence-first remediation reports.
+- [AWS Chaos Engineering Framework](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework): orchestrate bounded AWS FIS experiments with GovCloud-aware safeguards, rollback, and audit evidence.
+- [AWS GovHawk Efficiency Analyzer](https://github.com/fusiontechstrategies/AWS-GovHawk-Efficiency-Analyzer): surface potential waste, security blind spots, and operational risk across AWS GovCloud services.
+- [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester): turn volatile public proxy feeds into a bounded, security-hardened network-diagnostics report.
 
 ## Engineering principles
 
