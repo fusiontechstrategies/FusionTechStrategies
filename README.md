@@ -37,4 +37,4 @@ The projects below are designed for operators who need to understand what a tool
 
 Questions, reproducible bug reports, and implementation feedback are welcome in the relevant project. Please use each repository's `SECURITY.md` instructions for vulnerabilities instead of opening a public issue.
 
-For consulting and mission support, visit [fusiontsi.com](https://www.fusiontsi.com/) or [contact Fusion Technology Strategies](https://www.fusiontsi.com/contact_us.html).
+For consulting and mission support, visit [https://www.fusiontsi.com](https://www.fusiontsi.com) or email jeff@fusiontsi.com.
