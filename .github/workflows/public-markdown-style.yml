@@ -1,0 +1,42 @@
+name: Public Markdown style
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-markdown-style-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  public-markdown-style:
+    name: No em dashes
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Check public Markdown
+        shell: pwsh
+        run: |
+          $repositoryRoot = (Get-Location).Path
+          $violations = @(Get-ChildItem -LiteralPath $repositoryRoot -Recurse -File -Filter '*.md' |
+            Where-Object {
+              [System.IO.File]::ReadAllText($_.FullName).Contains([char]0x2014)
+            } |
+            ForEach-Object {
+              [System.IO.Path]::GetRelativePath($repositoryRoot, $_.FullName)
+            })
+
+          if ($violations.Count -gt 0) {
+            $violations | ForEach-Object { Write-Error "Em dash found in $_" }
+            exit 1
+          }
