@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.fusiontsi.com/">
-    <img src="https://www.fusiontsi.com/resources/img/logo.png" width="680" alt="Fusion Technology Strategies">
+    <img src="https://www.fusiontsi.com/resources/img/logo.png" width="280" alt="Fusion Technology Strategies">
   </a>
 </p>
 
