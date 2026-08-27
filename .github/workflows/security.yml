@@ -19,3 +19,6 @@ jobs:
       contents: read
       security-events: write
     uses: ./.github/workflows/reusable-security.yml
+    with:
+      # This profile repository contains documentation and workflows, not application source.
+      enable_semgrep: false
