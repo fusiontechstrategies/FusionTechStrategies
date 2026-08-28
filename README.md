@@ -24,6 +24,7 @@ The projects below are designed for operators who need to understand what a tool
 - [AWS Chaos Engineering Framework](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework): orchestrate bounded AWS FIS experiments with GovCloud-aware safeguards, rollback, and audit evidence.
 - [AWS GovHawk Efficiency Analyzer](https://github.com/fusiontechstrategies/AWS-GovHawk-Efficiency-Analyzer): surface potential waste, security blind spots, and operational risk across AWS GovCloud services.
 - [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester): turn volatile public proxy feeds into a bounded, security-hardened network-diagnostics report.
+- [IDS Rule Converter](https://github.com/fusiontechstrategies/IDS-Rule-Converter): convert and validate Snort and Suricata rules while preserving unsupported or ambiguous semantics for operator review.
 
 ## Engineering principles
 
@@ -32,6 +33,8 @@ The projects below are designed for operators who need to understand what a tool
 - **Auditable dependencies:** automated updates are reviewed, workflows use immutable action references, and protected branches require validation.
 - **Operator ownership:** local and offline modes are available where the problem permits them; telemetry is not added to security or administration tools merely to count users.
 - **Portable by design:** the primary runtime remains straightforward to inspect and move, even when optional package and integration layers are available.
+
+The [security scanner operations record](SECURITY-OPERATIONS.md) documents portfolio schedules, ownership, exceptions, evidence retention, and the verification process.
 
 ## Feedback and security reports
 
