@@ -10,17 +10,17 @@ Fusion Technology Strategies builds practical, evidence-first tools for incident
 
 The projects below are designed for operators who need to understand what a tool will do, test it safely, and retain useful evidence afterward. Each repository documents its guardrails, permissions, limitations, and validation approach.
 
-## Start here
+## Pick a starting point
 
-| Project | What it helps you do | Best first step |
+| If you work with... | Start here | See it before you use it |
 | --- | --- | --- |
-| [M365 Incident Response Console](https://github.com/fusiontechstrategies/M365-Incident-Response-Console) | Investigate and contain Microsoft 365 incidents with guarded live actions and tamper-evident evidence | Run the offline self-test, then use a disposable lab tenant |
-| [Bedrock Guardrail Firewall](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall) | Inspect AI traffic for PII, prompt injection, unsafe content, and grounding problems | Run the local deterministic demo before enabling optional cloud integrations |
-| [Windows Admin Toolkit](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit) | Operate twenty guarded local and remote Windows administration workflows | Download the latest signed release and verify it before execution |
+| Windows endpoints and servers | [Windows Admin Toolkit](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit) | [Preview the guarded automation flow](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit#guarded-automation-lifecycle) or [download the signed release](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit/releases/latest) |
+| Microsoft 365 incidents | [M365 Incident Response Console](https://github.com/fusiontechstrategies/M365-Incident-Response-Console) | [Open a sanitized case report](https://github.com/fusiontechstrategies/M365-Incident-Response-Console/blob/main/examples/sanitized-case-report.md) or [review the latest release](https://github.com/fusiontechstrategies/M365-Incident-Response-Console/releases/latest) |
+| Website and PDF accessibility | [WCAG 2.2 Site and PDF Scanner](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner) | [View the synthetic report](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner/blob/main/examples/sample-report/report-preview.png) and [run the five-minute walkthrough](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner#five-minute-local-walkthrough) |
+| Generative AI applications | [Bedrock Guardrail Firewall](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall) | [Try the offline evaluation](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall#try-it-offline-in-60-seconds) and [review the sanitized demo](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall#reproducible-sanitized-demo) |
 
 ## More tools
 
-- [WCAG 2.2 Site & PDF Scanner](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner): audit websites and PDFs, exercise axe-core in a real browser, and produce evidence-first remediation reports.
 - [AWS Chaos Engineering Framework](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework): orchestrate bounded AWS FIS experiments with GovCloud-aware safeguards, rollback, and audit evidence.
 - [AWS GovHawk Efficiency Analyzer](https://github.com/fusiontechstrategies/AWS-GovHawk-Efficiency-Analyzer): surface potential waste, security blind spots, and operational risk across AWS GovCloud services.
 - [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester): turn volatile public proxy feeds into a bounded, security-hardened network-diagnostics report.
