@@ -28,6 +28,11 @@ on:
         required: false
         type: string
         default: .
+      semgrep_timeout_seconds:
+        description: Maximum analysis time in seconds for each Semgrep rule on one file.
+        required: false
+        type: number
+        default: 10
       semgrep_exclude_rules:
         description: Newline-delimited Semgrep rule identifiers to exclude with documented rationale.
         required: false
@@ -68,6 +73,7 @@ jobs:
           SEMGREP_CONFIG: ${{ inputs.semgrep_config }}
           SEMGREP_TARGETS: ${{ inputs.semgrep_targets }}
           SEMGREP_EXCLUDE_RULES: ${{ inputs.semgrep_exclude_rules }}
+          SEMGREP_TIMEOUT_SECONDS: ${{ inputs.semgrep_timeout_seconds }}
         shell: bash
         run: |
           set -euo pipefail
@@ -83,7 +89,7 @@ jobs:
             --strict
             --jobs 2
             --max-memory 4000
-            --timeout 10
+            --timeout "$SEMGREP_TIMEOUT_SECONDS"
             --sarif-output semgrep-results.sarif
           )
           if [[ "$SEMGREP_CONFIG" != "auto" ]]; then
