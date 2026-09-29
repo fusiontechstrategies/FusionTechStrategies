@@ -23,8 +23,8 @@ The projects below are designed for operators who need to understand what a tool
 
 - [AWS Chaos Engineering Framework](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework): orchestrate bounded AWS FIS experiments with GovCloud-aware safeguards, rollback, and audit evidence. [PyPI 2.0.4](https://pypi.org/project/aws-chaos-engineering-framework/2.0.4/) is available.
 - [AWS GovHawk Efficiency Analyzer](https://github.com/fusiontechstrategies/AWS-GovHawk-Efficiency-Analyzer): surface potential waste, security blind spots, and operational risk across AWS GovCloud services.
-- [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester): turn volatile public proxy feeds into a bounded network diagnostics report. [Download the verified 2.0.1 release](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester/releases/tag/v2.0.1).
-- [IDS Rule Converter](https://github.com/fusiontechstrategies/IDS-Rule-Converter): convert and validate Snort and Suricata rules while preserving unsupported or ambiguous semantics for operator review. [Download the verified 4.0.2 release](https://github.com/fusiontechstrategies/IDS-Rule-Converter/releases/tag/v4.0.2).
+- [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester): turn volatile public proxy feeds into a bounded network diagnostics report. [Install PyPI 2.0.1](https://pypi.org/project/ultra-fast-proxy-fetcher-tester/2.0.1/) or [download the verified release](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester/releases/tag/v2.0.1).
+- [IDS Rule Converter](https://github.com/fusiontechstrategies/IDS-Rule-Converter): convert and validate Snort and Suricata rules while preserving unsupported or ambiguous semantics for operator review. [Install PyPI 4.0.2](https://pypi.org/project/ids-rule-converter/4.0.2/) or [download the verified release](https://github.com/fusiontechstrategies/IDS-Rule-Converter/releases/tag/v4.0.2).
 
 ## Engineering principles
 
