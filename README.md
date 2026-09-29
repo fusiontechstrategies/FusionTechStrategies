@@ -40,4 +40,6 @@ The [security scanner operations record](SECURITY-OPERATIONS.md) documents portf
 
 Questions, reproducible bug reports, and implementation feedback are welcome in the relevant project. Please use each repository's `SECURITY.md` instructions for vulnerabilities instead of opening a public issue.
 
+**First-use trials:** Windows administrators can try the [Windows Admin Toolkit no-change walkthrough](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit/discussions/13); accessibility practitioners can try the [WCAG scanner synthetic walkthrough](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner/discussions/22). Each takes about 15 minutes, uses no customer data, and welcomes feedback on confusing steps.
+
 For consulting and mission support, visit [https://www.fusiontsi.com](https://www.fusiontsi.com) or email jeff@fusiontsi.com.
