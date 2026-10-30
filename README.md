@@ -10,22 +10,31 @@ Fusion Technology Strategies builds practical, evidence-first tools for incident
 
 The projects below are designed for operators who need to understand what a tool will do, test it safely, and retain useful evidence afterward. Each repository documents its guardrails, permissions, limitations, and validation approach.
 
-## Pick a starting point
+## Start with the flagships
 
-| If you work with... | Start here | See it before you use it |
-| --- | --- | --- |
-| Windows endpoints and servers | [Windows Admin Toolkit](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit) | [Preview the guarded automation flow](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit#guarded-automation-lifecycle) or [download the signed release](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit/releases/latest) |
-| Microsoft 365 incidents | [M365 Incident Response Console](https://github.com/fusiontechstrategies/M365-Incident-Response-Console) | [Open a sanitized case report](https://github.com/fusiontechstrategies/M365-Incident-Response-Console/blob/main/examples/sanitized-case-report.md) or [review the latest release](https://github.com/fusiontechstrategies/M365-Incident-Response-Console/releases/latest) |
-| Website and PDF accessibility | [WCAG 2.2 Site and PDF Scanner](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner) | [View the synthetic report](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner/blob/main/examples/sample-report/report-preview.png), [run the five-minute walkthrough](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner#five-minute-local-walkthrough), or [install PyPI 5.0.3](https://pypi.org/project/wcag-site-pdf-scanner/5.0.3/) |
-| Generative AI applications | [Bedrock Guardrail Firewall](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall) | [Try the offline evaluation](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall#try-it-offline-in-60-seconds), [review the sanitized demo](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall#reproducible-sanitized-demo), or [install PyPI 4.1.1](https://pypi.org/project/bedrock-guardrail-firewall/4.1.1/) |
-| AI evaluation and agent routing | [AI Accuracy Harness](https://github.com/fusiontechstrategies/AI-Accuracy-Harness) | [Run the router in 60 seconds](https://github.com/fusiontechstrategies/AI-Accuracy-Harness#try-the-router-in-60-seconds), [inspect the v5.0.0 evidence package](https://github.com/fusiontechstrategies/AI-Accuracy-Harness/releases/tag/v5.0.0), or [propose the next deterministic task lane](https://github.com/fusiontechstrategies/AI-Accuracy-Harness/discussions/5) |
+| Operator goal | Project | Maturity | Fastest meaningful evaluation |
+| --- | --- | --- | --- |
+| Investigate and contain a Microsoft 365 incident | [M365 Incident Response Console](https://github.com/fusiontechstrategies/M365-Incident-Response-Console) | Maintained public release | [Open the sanitized case report](https://github.com/fusiontechstrategies/M365-Incident-Response-Console/blob/main/examples/sanitized-case-report.md), then follow the [safe lab guide](https://github.com/fusiontechstrategies/M365-Incident-Response-Console/blob/main/docs/lab-evaluation.md). |
+| Enforce local privacy and policy before optional Bedrock evaluation | [Bedrock Guardrail Firewall](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall) | Maintained public release | [Run the 60-second offline evaluation](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall#try-it-offline-in-60-seconds) and inspect the [sanitized demo](https://github.com/fusiontechstrategies/Bedrock-Guardrail-Firewall#reproducible-sanitized-demo). |
+| Turn website and PDF findings into reviewable accessibility evidence | [WCAG 2.2 Site and PDF Scanner](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner) | Maintained public release | [View the synthetic report](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner/blob/main/examples/sample-report/report-preview.png) and run the [five-minute walkthrough](https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner#five-minute-local-walkthrough). |
 
-## More tools
+## Microsoft operations
 
-- [AWS Chaos Engineering Framework](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework): orchestrate bounded AWS FIS experiments with GovCloud-aware safeguards, rollback, and audit evidence. [PyPI 2.0.4](https://pypi.org/project/aws-chaos-engineering-framework/2.0.4/) is available.
-- [AWS GovHawk Efficiency Analyzer](https://github.com/fusiontechstrategies/AWS-GovHawk-Efficiency-Analyzer): surface potential waste, security blind spots, and operational risk across AWS GovCloud services.
-- [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester): turn volatile public proxy feeds into a bounded network diagnostics report. [Install PyPI 2.0.1](https://pypi.org/project/ultra-fast-proxy-fetcher-tester/2.0.1/) or [download the verified release](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester/releases/tag/v2.0.1).
-- [IDS Rule Converter](https://github.com/fusiontechstrategies/IDS-Rule-Converter): convert and validate Snort and Suricata rules while preserving unsupported or ambiguous semantics for operator review. [Install PyPI 4.0.2](https://pypi.org/project/ids-rule-converter/4.0.2/) or [download the verified release](https://github.com/fusiontechstrategies/IDS-Rule-Converter/releases/tag/v4.0.2).
+- [Windows Admin Toolkit](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit) is a maintained, signed-release toolkit for guarded local and remote administration. [Preview sanitized output](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit/blob/main/examples/demo/README.md), review the [guarded automation flow](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit#guarded-automation-lifecycle), or [download the signed release](https://github.com/fusiontechstrategies/Windows-Admin-Toolkit/releases/latest).
+
+## Specialist and emerging tools
+
+- [Fool's Gold](https://github.com/fusiontechstrategies/Fools-Gold) is an **offline pilot seeking infrastructure validation**, not a production-proven detection service. Run the [60-second synthetic exercise](https://github.com/fusiontechstrategies/Fools-Gold#try-it-in-sixty-seconds) and review exactly [what is and is not verified](https://github.com/fusiontechstrategies/Fools-Gold#what-is-verified-locally-and-what-is-not).
+- [AWS Chaos Engineering Framework](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework) is a maintained public release for reviewable, bounded AWS fault-injection planning and guarded extension workflows. Start with the [plan-only game-day walkthrough](https://github.com/fusiontechstrategies/AWS-Chaos-Engineering-Framework/blob/main/docs/PLAN_ONLY_GAME_DAY.md) or [PyPI 2.0.4](https://pypi.org/project/aws-chaos-engineering-framework/2.0.4/).
+- [AWS GovHawk Efficiency Analyzer](https://github.com/fusiontechstrategies/AWS-GovHawk-Efficiency-Analyzer) is a **release candidate** for surfacing potential waste, security blind spots, and operational risk across AWS GovCloud services. It does not calculate realized savings or replace AWS Config, Security Hub, or workload-owner review.
+- [IDS Rule Converter](https://github.com/fusiontechstrategies/IDS-Rule-Converter) is a maintained public release for converting and validating Snort and Suricata rules while refusing or separating ambiguous semantics. [Install PyPI 4.0.2](https://pypi.org/project/ids-rule-converter/4.0.2/) or inspect the [strict-versus-partial example](https://github.com/fusiontechstrategies/IDS-Rule-Converter#strict-and-reviewed-partial-results).
+- [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester) is a maintained network-diagnostics utility. It measures bounded reachability and latency; it does not establish that a proxy is trustworthy, anonymous, or appropriate for sensitive traffic. [Install PyPI 2.0.1](https://pypi.org/project/ultra-fast-proxy-fetcher-tester/2.0.1/).
+
+## Supporting artifacts
+
+- [PatchBlitz runtimes](https://github.com/fusiontechstrategies/Patchblitz-runtimes) publishes pinned, reproducible runtime archives used by the PatchBlitz Windows installer. It is a supply-chain support repository, not a standalone PatchBlitz product or end-user application.
+
+Maturity labels describe the evidence available in each repository; they are not compliance certifications, warranties, or claims of customer adoption.
 
 ## Engineering principles
 
