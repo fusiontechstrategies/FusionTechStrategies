@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.fusiontsi.com/">
-    <img src="https://www.fusiontsi.com/resources/img/logo.png" width="280" alt="Fusion Technology Strategies">
+    <img src=".github/assets/social-preview.jpg" width="960" alt="Fusion Technology Strategies: Open tools. Guarded operations.">
   </a>
 </p>
 
