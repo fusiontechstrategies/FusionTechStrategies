@@ -10,18 +10,6 @@ Fusion Technology Strategies builds practical, evidence-first tools for incident
 
 The projects below are designed for operators who need to understand what a tool will do, test it safely, and retain useful evidence afterward. Each repository documents its guardrails, permissions, limitations, and validation approach.
 
-<!-- covertprivacy-community:start -->
-## Featured: CovertPrivacy Community Edition
-
-**Personal privacy, with you in control.** Check selected people-search sites for possible matches to your name and location, understand the results, and prepare manual opt-out requests.
-
-[![CovertPrivacy Community Edition](https://raw.githubusercontent.com/fusiontechstrategies/CovertPrivacy-Community/main/assets/hero.svg)](https://github.com/fusiontechstrategies/CovertPrivacy-Community)
-
-Free Windows and Linux tools. No CovertPrivacy account or cloud profile. Offline exploration comes first; live checks send name/location directly to the sites you explicitly choose. The separate commercial application remains private.
-
-**[Download 1.0.0](https://github.com/fusiontechstrategies/CovertPrivacy-Community/releases/tag/v1.0.0)** · **[Try the fictional interface demo](https://fusiontechstrategies.github.io/CovertPrivacy-Community/)** · **[Explore the source and documentation](https://github.com/fusiontechstrategies/CovertPrivacy-Community)**
-<!-- covertprivacy-community:end -->
-
 ## Start with the flagships
 
 | Operator goal | Project | Maturity | Fastest meaningful evaluation |
