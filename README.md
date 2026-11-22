@@ -30,12 +30,6 @@ The projects below are designed for operators who need to understand what a tool
 - [IDS Rule Converter](https://github.com/fusiontechstrategies/IDS-Rule-Converter) is a maintained public release for converting and validating Snort and Suricata rules while refusing or separating ambiguous semantics. [Install PyPI 4.0.2](https://pypi.org/project/ids-rule-converter/4.0.2/) or inspect the [strict-versus-partial example](https://github.com/fusiontechstrategies/IDS-Rule-Converter#strict-and-reviewed-partial-results).
 - [Ultra-Fast Proxy Fetcher & Tester](https://github.com/fusiontechstrategies/Ultra-Fast-Proxy-Fetcher-Tester) is a maintained network-diagnostics utility. It measures bounded reachability and latency; it does not establish that a proxy is trustworthy, anonymous, or appropriate for sensitive traffic. [Install PyPI 2.0.1](https://pypi.org/project/ultra-fast-proxy-fetcher-tester/2.0.1/).
 
-## Supporting artifacts
-
-- [PatchBlitz runtimes](https://github.com/fusiontechstrategies/Patchblitz-runtimes) publishes pinned, reproducible runtime archives used by the PatchBlitz Windows installer. It is a supply-chain support repository, not a standalone PatchBlitz product or end-user application.
-
-Status descriptions reflect each repository's supported use and validation evidence; they are not compliance certifications or warranties.
-
 ## Engineering principles
 
 - **Safe before clever:** potentially disruptive actions are gated, scoped, and documented.
