@@ -44,8 +44,6 @@ Status descriptions reflect each repository's supported use and validation evide
 - **Operator ownership:** local and offline modes are available where the problem permits them; telemetry is not added to security or administration tools merely to count users.
 - **Portable by design:** the primary runtime remains straightforward to inspect and move, even when optional package and integration layers are available.
 
-The [security scanner operations record](SECURITY-OPERATIONS.md) documents portfolio schedules, ownership, exceptions, evidence retention, and the verification process.
-
 ## Feedback and security reports
 
 Questions, reproducible bug reports, and implementation feedback are welcome in the relevant project. Please use each repository's `SECURITY.md` instructions for vulnerabilities instead of opening a public issue.
